@@ -1,0 +1,304 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "My Project",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "tags": [
+    {
+      "name": "Klinik Me"
+    }
+  ],
+  "paths": {
+    "/jumlahAnggota": {
+      "get": {
+        "summary": "Jumlah Anggota",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jumlahAnggota": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "jumlahAnggota"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "jumlahAnggota"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800328-run"
+      }
+    },
+    "/anggotaTerkecil": {
+      "get": {
+        "summary": "Anggota Terkecil",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "anggotaTerkecil": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "anggotaTerkecil"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "anggotaTerkecil"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800336-run"
+      }
+    },
+    "/anggotaTerbesar": {
+      "get": {
+        "summary": "Anggota Terbesar",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "anggotaTerbesar": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "anggotaTerbesar"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "anggotaTerbesar"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800337-run"
+      }
+    },
+    "/anggotaDuplikat": {
+      "get": {
+        "summary": "Anggota Duplikat",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "anggotaDuplikat": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "required": [
+                    "anggotaDuplikat"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "anggotaDuplikat"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800345-run"
+      }
+    },
+    "/urutanDuplikat": {
+      "get": {
+        "summary": "Urutan Duplikat",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "urutanDuplikat": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "urutanDuplikat"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "urutanDuplikat"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800388-run"
+      }
+    },
+    "/jumlahGanjilGenap": {
+      "get": {
+        "summary": "Jumlah Ganjil Genap",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "jumlahGanjil": {
+                      "type": "integer"
+                    },
+                    "jumlahGenap": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "jumlahGanjil",
+                    "jumlahGenap"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "jumlahGanjil",
+                    "jumlahGenap"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800391-run"
+      }
+    },
+    "/kelompokGanjilGenap": {
+      "get": {
+        "summary": "Kelompok Ganjil Genap",
+        "x-apidog-folder": "Klinik Me",
+        "x-apidog-status": "developing",
+        "deprecated": false,
+        "description": "",
+        "tags": [
+          "Klinik Me"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "kelompokGanjil": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "kelompokGenap": {
+                      "type": "array",
+                      "items": {
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "required": [
+                    "kelompokGanjil",
+                    "kelompokGenap"
+                  ],
+                  "x-apidog-ignore-properties": [],
+                  "x-apidog-orders": [
+                    "kelompokGanjil",
+                    "kelompokGenap"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "x-run-in-apidog": "https://apidog.com/web/project/377472/apis/api-4800398-run"
+      }
+    }
+  },
+  "components": {
+    "schemas": {}
+  },
+  "servers": []
+}
