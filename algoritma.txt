@@ -1,0 +1,85 @@
+1) Algoritma untuk Menghitung Jumlah Anggota Himpunan Bilangan Asli:
+
+a. Inisialisasi variabel jumlah menjadi 0.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Tambahkan nilai angka ke variabel jumlah.
+
+d. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+e. Hasilnya adalah nilai jumlah sebagai jumlah total anggota Himpunan Bilangan Asli.
+
+2) Algoritma untuk Menghasilkan Anggota Terkecil dari Himpunan Bilangan Asli:
+
+a. Inisialisasi variabel terkecil dengan nilai pertama dalam Himpunan Bilangan Asli.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Jika nilai angka lebih kecil dari terkecil, perbarui nilai terkecil dengan nilai angka.
+
+d. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+e. Hasilnya adalah nilai terkecil sebagai anggota terkecil Himpunan Bilangan Asli.
+
+3) Algoritma untuk Menghasilkan Anggota Terbesar dari Himpunan Bilangan Asli:
+
+a. Inisialisasi variabel terbesar dengan nilai pertama dalam Himpunan Bilangan Asli.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Jika nilai angka lebih besar dari terbesar, perbarui nilai terbesar dengan nilai angka.
+
+d. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+e. Hasilnya adalah nilai terbesar sebagai anggota terbesar Himpunan Bilangan Asli.
+
+4) Algoritma untuk Mencari & Menghasilkan Anggota dengan Nilai Sama dan Lebih dari Satu:
+
+a. Inisialisasi himpunan kosong duplikat.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Jika angka ada dalam duplikat, tambahkan angka ke himpunan duplikat.
+
+d. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+e. Hasilnya adalah himpunan duplikat yang berisi anggota dengan nilai sama dan lebih dari satu.
+
+5) Algoritma untuk Menentukan Urutan Anggota dengan Nilai Sama dan Lebih dari Satu:
+
+a. Urutkan Himpunan Bilangan Asli dari kecil ke besar.
+
+b. Inisialisasi variabel posisi dengan 1.
+
+c. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah d-f.
+
+d. Jika angka sama dengan elemen sebelumnya, tambahkan 1 ke posisi.
+
+e. Jika angka tidak sama dengan elemen sebelumnya, kembalikan nilai posisi.
+
+f. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+6) Algoritma untuk Menghitung Jumlah Anggota Bilangan Ganjil dan Genap:
+
+a. Inisialisasi variabel jumlah_ganjil dan jumlah_genap menjadi 0.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Jika angka adalah bilangan ganjil, tambahkan 1 ke jumlah_ganjil.
+
+d. Jika angka adalah bilangan genap, tambahkan 1 ke jumlah_genap.
+
+e. Lanjutkan ke elemen berikutnya dalam Himpunan Bilangan Asli.
+
+7) Algoritma untuk Mengelompokkan dan Menampilkan Anggota dalam Kelompok Bilangan Ganjil dan Genap:
+
+a. Inisialisasi dua himpunan kosong, ganjil dan genap.
+
+b. Untuk setiap elemen angka dalam Himpunan Bilangan Asli, lakukan langkah c-d.
+
+c. Jika angka adalah bilangan ganjil, tambahkan angka ke himpunan ganjil.
+
+d. Jika angka adalah bilangan genap, tambahkan angka ke himpunan genap.
+
+e. Setelah semua elemen diproses, tampilkan himpunan ganjil dan genap.
